@@ -1,0 +1,55 @@
+body
+{
+    margin: 20px;
+    font-family: Verdana;
+    background-color: #e6e6e6;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #404040;
+}
+
+h1
+{
+    font-size: 36px;
+}
+
+h2
+{
+    font-size: 31px;
+}
+h3
+{
+    font-size: 26px;
+}
+h4
+{
+    font-size: 21px;
+}
+h5
+{
+    font-size: 16px;
+}
+h6
+{
+    font-size: 11px;
+}
+
+#logo
+{
+    display: block;
+    margin: auto;
+}
+
+.godina
+{
+    margin-top: 50px;
+    font-family: Georgia;
+}
+
+.semestar
+{
+    text-decoration: underline;
+    color: "2a9d8f";
+}

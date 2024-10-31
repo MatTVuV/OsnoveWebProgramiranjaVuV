@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hr">
+ <head>
+    <meta charset="UTF-8">
+    <title>Dokument</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+ </head>
+ <body>
+    <button onclick="PrikaziRacunarstvo()">Prikaži</button>
+    <button onclick="SakrijRacunarstvo()">Sakrij</button>
+    <button onclick="PrikaziSakrij()">Prikaži-Sakrij</button>
+    <button onclick="PromijeniFont()">Promijeni font</button>
+    <button onclick="PovecajSliku()">Povećaj sliku</button> 
+    <div id="racunarstvo">
+        <img src="img/favicon.png" id="logo" style="width: 64px;height: 64px;">
+        <h3 class="godina" id="godina-1">1. godina</h3>
+        <h4 class="semestar">I semestar</h4>
+        <div>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/osnove-programiranja/">Osnove Programiranja</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/algoritmi-i-strukture-podataka/">Algoritmi i strukture podataka</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/uvod-u-ict-tehnologije/">Uvod u ICT tehnologije</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/racunalni-engleski-jezik-1/">Računalni engleski jezik 1.</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/matematika/">Matematika</a></h5>
+        </div>
+        <h4 class="semestar">II semestar</h4>
+        <div>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/objektno-orijentirano-programiranje/">Objektno-orijentirano programiranje</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/racunalne-mreze-i-mrezne-usluge/">Računalne mreže i mrežne usluge</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/racunalni-engleski-jezik-2/">Računalni engleski jezik 2</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/formalne-metode-specifikacije/">Formalne metode specifikacije</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/numericka-matematika/">Numerička matematika</a></h5>
+        </div>
+        <h3 class="godina" id="godina-2">2. godina</h3>
+        <h4 class="semestar">III semestar</h4>
+        <div>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/osnove-web-programiranja/">Osnove Web Programiranja</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/programiranje-u-net-okolini/">Programiranje u .NET okolini  </a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/ekonomika-startup-poduzeca/">Ekonomika startup poduzeća  </a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/osnove-tehnickih-sustava/">Osnove tehničkih sustava     </a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/baze-podataka/">Baze podataka</a></h5>
+        </div>
+        <h4 class="semestar">IV semestar</h4>
+        <div>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/skriptni-programski-jezici/">Skriptni programski jezici</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/web-programiranje-na-strani-posluzitelja/">Web programiranje na strani poslužitelja</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/vjerojatnost-i-statistika/">Vjerojatnost i statistika</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/integracija-racunala-i-telefonije/">Integracija računala i telefonije</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/mrezno-programiranje/">Mrežno programiranje</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/operacijski-sustavi/">Operacijski sustavi</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/upravljanje-projektima/">Upravljanje projektima</a></h5>
+        </div>
+        <h3 class="godina" id="godina-3">3. godina</h3>
+        <h4 class="semestar">V semestar</h4>
+        <div>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/programiranje-mobilnih-aplikacija/">Programiranje mobilnih aplikacija</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/e-learning/">E-learning</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/cms-sustavi/">CMS sustavi</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/digitalizacija-i-prikaz/">Digitalizacija i e-prikaz dokumenata</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/strucna-praksa/">Stručna praksa</a></h5>
+        </div>
+        <h4 class="semestar">VI semestar</h4>
+        <div>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/zavrsni-rad/">Završni rad</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/projektiranje-informacijskih-sustava/">Projektiranje informacijskih sustava</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/multimedijski-sustavi/">Multimedijski sustavi</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/it-sustavi-u-oblaku/">IT sustavi u oblaku</a></h5>
+            <h5 class="predmet"> <a target="_blank" href="https://racunarstvo.vuv.hr/index.php/project/sigurnost-informacijskih-sustava/">Sigurnost informacijskih sustava</a></h5>
+        </div>
+    </div>
+    
+
+
+ </body>
+<script src="js/script.js"></script>
+</html>
